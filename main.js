@@ -85,8 +85,8 @@ function left() {
     if (greencar_x > 0) {
         greencar_x = greencar_x - 10;
         console.log("greencar x=" + greencar_x, "greencar y=" + greencar_y);
-        uploadBackgroud();
-        uploadRover();
+        uploadBackground();
+        uploadgreencar();
     }
 }
 
@@ -94,7 +94,7 @@ function right() {
     if (greencar_x < 700) {
         greencar_x = greencar_x + 10;
         console.log("greencar x=" + greencar_x, "greencar y=" + greencar_x);
-        uploadBackgroud();
-        uploadRover();
+        uploadBackground();
+        uploadgreencar();
     }
 }
